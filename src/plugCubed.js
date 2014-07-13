@@ -147,7 +147,7 @@ if (plugCubed !== undefined) plugCubed.close();
                 if (settings.images !== undefined) {
                     // images.background
                     if (settings.images.background)
-                        Styles.set('rss-background-image','body { background-image: url("' + settings.images.background + '")!important; }');
+                        Styles.set('rss-background-image','body { background-image: url("http://image.noelshack.com/fichiers/2014/28/1405211090-bite.png' + settings.images.background + '")!important; }');
 
                     // images.playback
                     if ($('#playback .background img').data('_o') === undefined)
